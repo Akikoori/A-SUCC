@@ -1,6 +1,6 @@
 # A-SUCC
-Automated Stream-based User Content Counter for SSTM|基于动态流的用户内容数自动统计器
-  名称随时可能根据我的心情更改
+Automated Stream-based User Content Counter for SSTM|基于动态流的用户内容数自动统计器  
+名称随时可能根据我的心情更改
 
 目前主要用于统计广场每日内容数的分配情况。
 
