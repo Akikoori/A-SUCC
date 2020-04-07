@@ -10,4 +10,5 @@ Automated Stream-based User Content Counter for SSTM|基于动态流的用户内
 * 上传至github前 可根据已手动读取的动态流html读取包括部分用户信息在内的资料，并根据用户整理内容数
 
 后续展望：  
+* 调整输出路径，想学习一下数据库，然后也许可以用github page或者别的什么来储存信息
 * 加入登录功能，使得整理里区内容数成为可能，且不论有没有人要
