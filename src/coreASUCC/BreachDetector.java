@@ -44,7 +44,7 @@ public class BreachDetector {
 				List<Integer> checkList = new ArrayList<Integer>();
 				int lowerLimit = userReplyTimeStamps.get(i) - 1800;
 				for (int j = 0; userReplyTimeStamps.get(i+j) >= lowerLimit; j++) {
-					if (userReplyTopics.get(i).equals(userReplyTopics.get(j)))
+					if (userReplyTopics.get(i).equals(userReplyTopics.get(i+j)))
 						break;
 					checkList.add(userReplyTopics.get(i+j));
 				}
