@@ -40,7 +40,7 @@ public class BreachDetector {
 		if (topicNumber < 8)
 			return false;
 		//检测第i回复前30分钟内是否有八个回复
-			for(int i = 0; i < uprs.size() - 8; i++) {
+			for(int i = 0; i < uprs.size() - 7; i++) {
 				List<Integer> checkList = new ArrayList<Integer>();
 				int lowerLimit = userReplyTimeStamps.get(i) - 1800;
 				for (int j = 0; i+j < userReplyTimeStamps.size() && userReplyTimeStamps.get(i+j) >= lowerLimit; j++) {
